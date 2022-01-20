@@ -3,6 +3,7 @@ package com.example.theblog;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.Menu;
@@ -93,9 +94,10 @@ public class MainActivity extends AppCompatActivity {
                         if(task.isSuccessful()){
                             //IN
                             Toast.makeText(MainActivity.this,"Signed In",Toast.LENGTH_LONG).show();
+
+                            startActivity(new Intent(MainActivity.this,PostListActivity.class));
                         }
                         else {
-
                         }
 
                     }
