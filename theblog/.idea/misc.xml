@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../Library/Android/sdk/platforms/android-30/data/res/layout/unsupported_compile_sdk_dialog_content.xml" value="0.1" />
+        <entry key="..\:/Android Development/blogApp/theblog/app/src/main/res/drawable/input_outline.xml" value="0.22135416666666666" />
+        <entry key="..\:/Android Development/blogApp/theblog/app/src/main/res/layout/activity_add_post.xml" value="0.25" />
         <entry key="..\:/Android Development/blogApp/theblog/app/src/main/res/layout/activity_post_list.xml" value="0.35260416666666666" />
         <entry key="..\:/Android Development/blogApp/theblog/app/src/main/res/layout/post_row.xml" value="0.36666666666666664" />
         <entry key="..\:/Android Development/blogApp/theblog/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
