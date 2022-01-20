@@ -109,4 +109,13 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         mAuth.addAuthStateListener(mAuthListener);
     }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if(mAuth != null){
+            mAuth.removeAuthStateListener(mAuthListener);
+
+        }
+    }
 }
