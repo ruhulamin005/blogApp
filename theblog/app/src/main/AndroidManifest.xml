@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Theblog">
         <activity
-            android:name=".AddPostActivity"
+            android:name=".Activities.AddPostActivity"
             android:exported="false" />
         <activity
-            android:name=".PostListActivity"
+            android:name=".Activities.PostListActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

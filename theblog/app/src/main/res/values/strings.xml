@@ -7,5 +7,5 @@
     <string name="date">Date Created</string>
     <string name="post">Post Title</string>
     <string name="postdesc">Post Description</string>
-    <string name="post">Post Title</string>
+    <string name="postT">Post Title</string>
 </resources>

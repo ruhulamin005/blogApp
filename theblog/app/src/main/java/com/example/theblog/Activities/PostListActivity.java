@@ -1,8 +1,10 @@
-package com.example.theblog;
+package com.example.theblog.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.theblog.R;
 
 public class PostListActivity extends AppCompatActivity {
 
